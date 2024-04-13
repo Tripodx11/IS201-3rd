@@ -1,0 +1,77 @@
+body {
+    background-image: url('../assets/img/IS\ Website\ Resume\ Background\ Picture\ 2.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.overalltext {
+    color:rgb(8, 40, 8);
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.mainbodybox{
+    /* background-color: rgb(250, 235, 215); */
+    background: rgba(250, 235, 215, .7);
+    height:fit-content;
+    right: 30px;
+    left: 100px;
+    padding: 10px;
+}
+
+ul{
+    list-style-position: inside;
+}
+
+ol{
+    list-style-position: inside;
+}
+
+.header{
+    background-color: rgba(4, 21, 4, 0.9);
+    color: rgb(255, 246, 235);
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    /* padding: 25px */
+}
+
+.opacity{
+    opacity: .9;
+}
+
+.imgpadding{
+    padding: 10px;
+}
+
+nav a{
+    padding:15px;
+    text-decoration: underline;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover{
+    font-size: 17px;
+    color:rgb(0, 51, 29);
+    /* text-decoration: overline; */
+}
+
+.footer{
+    background-color: rgba(4, 21, 4, 0.9);
+    bottom: 0px;
+    right: 3px;
+    left: 3px;
+    height: 60px;
+    font-size: 10px;
+    line-height: 60px;
+    color: rgb(255, 246, 235);
+    padding: 10px;
+    position:relative;
+}
+
+.tabsize{
+    height: ;
+}
